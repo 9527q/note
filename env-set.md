@@ -1,5 +1,6 @@
 # 环境配置
 
+设置文件名大小写敏感：`git config core.ignorecase false`
 
 ## Pycharm
 
@@ -14,5 +15,6 @@
 
 ## vs code
 
-1. 设置代码竖线：【⌘ ,】或【Code->Preference->Settings】-> 找到 Rulers -> 打开 settings.json 文件 ->
-设置editor.rulers = [79]
+1. 设置代码竖线：【⌘ ,】 -> Text Editor -> Rulers -> Edit in settings.json -> `editor.rulers = [79]`
+2. 设置自动保存：【⌘ ,】 -> Commonly Used -> Files: Auto Save -> 选择适合自己的
+3. 安装插件：【⇧ ⌘ X】 -> Markdown All in One

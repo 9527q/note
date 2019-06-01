@@ -11,9 +11,15 @@ o | i
 ⌥ ↕ | 选中部分所在行(可多)上下移动
 ↩︎ | 选中文件(夹)为修改名字(再次 ↩ 确认)；选中项目目录为打开和关闭
 
+## 打开设置
+
+- ⌘ ,
+- Code -> Preference -> Settings
+- 「左下角小齿轮」 -> Settings
+
 ## 设置代码竖线
 
-【⌘ ,】或【Code->Preference->Settings】-> 找到 Rulers -> 打开 settings.json 文件 ->
+【设置】-> 找到 Rulers -> 打开 settings.json 文件 ->
 设置editor.rulers = [79]
 
 ![vscode-rulers](images/vscode-rulers.png)

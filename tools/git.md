@@ -2,52 +2,85 @@
 
 设置大小写敏感，`git config core.ignorecase false`
 
+本地分支和远程分支是相互独立的
+
 ## 常用命令
 
-命令 | 示例 | 说明
--|:-:|-
-clone | `git clone ssh或http链接` | 使用ssh无需用户名密码，本机需要有ssh服务并且将公钥添加到Git代码服务器，http无需事先设置什么，使用时需要填写用户名和密码，clone后本地只有一个master分支，本地分支和远程分支是互相独立的
-branch | `git branch` | 查看本地分支，当前分支用‘*’+‘绿色’标出（-r查看远程分支，-a查看本地和远程所有分支）
- | `git branch -d <branch>` | 删除分支
- | `git branch --set-upstream-to=origin/<branch> <branch>` | 为分支创建跟踪信息，即令一个本地分支跟踪某个远程分支（pull和push的对象）（分支名可以不同）
-checkout | `git checkout <branch>` | 切换本地分支
- | `git checkout -b <branch>` | 创建并切换到分支
- | `git checkout -b <branch> origin/<branch>` | 创建跟踪远程分支的本地分支且切换到此分支（最好同名，以后清晰且push不会乱）
-diff | `git diff` | 对于本地仓库来说工作区的改动情况
- | `git diff branch1 branch2` | 对于分支1来说分支2的改动，本地分支或远程分支均可
- | `git diff path1 path2` | 比较多个路径或文件（不是他们之间）的改动情况
-blame | `git blame path/file` | 查看代码编写者（具体文件）
-add | `git add path/file` | 谨慎使用 `git add .` 有风险把不该提交的东西提交
-commit | `git commit -m "some comment"` | 把暂存区的改动提交为一个版本
-| `git commit --amend` | 修改上一次commit，内容是当前的暂存区，可以编辑提交内容比如刚刚commit的-m内容没写好想重新写比如有个小地方要改一下还不至于来一个新的commit
-rebase | `git rebase -i adsf02d^` | 把这个版本之后的几个commit合并为一个，pick表示保留，f表示合并且不保留说明，然后末行模式执行x即可。
+### 初始化仓库
 
-## 版本回退 git reset
+命令                      | 说明
+--------------------------|---------------------------------------
+`git init`                | 以当前所在文件夹创建初始化 git 仓库(在当前目录创建 .git 文件夹)
+`git clone ssh或http链接` | 拉取远程仓库放到当前目录下，此时本地只有 master 一个分支
 
-- 回退版本：`git reset HEAD^`：一个 ^ 表示一个版本，可以多个
-  - `git reset HEAD～n`：同上
-  - `git reset commit-id`：回退到指定版本，版本号可以是全的也可以是7位的
-  - 如果 HEAD 指针指向的是 master 分支，那么 HEAD 还可以换成 master
-  - 如果不加参数，实际上使用的是默认的参数 mixed
-  - 三个参数
-    - soft 参数：`git reset --soft HEAD～1` 意为将版本库软回退1个版本
-      > **软回退**表示将本地版本库的头指针全部重置到指定版本，且将这次提交之后的所有变更都移动到暂存区
-    - 默认的mixed参数：`git reset HEAD～1` 意为将版本库回退1个版本，将本地版本库的头指针全部重置到指定版本，且会重置暂存区，即这次提交之后的所有变更都移动到未暂存阶段
-    - hard参数：`git reset --hard HEAD～1` 意为将版本库回退1个版本，但是不仅仅是将本地版本库的头指针全部重置到指定版本，也会重置暂存区，并且会将工作区代码也回退到这个版本
-    - **注意**soft参数与默认参数都不会修改工作区代码，只有hard参数才会修改工作区代码。
-- 回退远程的个人分支版本：先把本地回退，再强制push到远程 `git push -f`
-- 把**暂存区回退到工作区**（即保留改动）：`git reset HEAD filename`
+**ssh 还是 http？**
+使用 ssh 需要事先将本地 ssh 公钥放到 git 服务器；使用 http 需要填写用户名和密码。
 
-## 查看版本
+### 分支操作
 
-`git log -n`：查看最近的 n 次提交
+命令                                                                 | 说明
+---------------------------------------------------------------------|--------------------------------
+`git branch`                                                         | 查看本地分支，当前分支用‘*’+‘绿色’标出
+`git branch -r`                                                      | 查看远程分支
+`git branch -a`                                                      | 查看本地和远程所有分支
+`git branch -d <branch-name>`                                        | 删除某个分支
+`git branch --set-upstream-to=origin/<branch-origin> <branch-local>` | 设置本地分支跟踪某远程分支(pull/push到哪个远程分支)
+`git checkout <branch-name>`                                         | 切换到目标分支
+`git checkout -b <branch-name>`                                      | 切换或「新建并切换」到目标分支
+`git checkout -b <branch-local> origin/<branch-origin>`              | 创建分支并设定跟踪某远程分支
+`git merge <branch-name>`                                            | 将分支 branch-name 合并到当前分支
 
-查看某个commit的具体修改内容
+### 查看代码情况
 
-1 知道commit id的话
+命令                                 | 说明
+-------------------------------------|--------------------------
+`git status`                         | 查看当前仓库的改动情况（文件级别）
+`git diff`                           | 以本地仓库为基准，工作区所做的改动
+`git diff <branch1> <branch2>`       | 以分支1为基准，分支2所做的改动
+`git diff <commit1-id> <commit2-id>` | 以commit1为基准，commit2所做的改动
+`git diff path1 path2 ...`           | 查看多个路径或文件的改动情况（不是他们之间的比较）
+`git blame path/file`                | 查看某具体文件的各行代码是在哪个版本哪个人改动的
+`git log`                            | 查看 commit 历史
+`git log -n`                         | 查看最近 n 次 commit 历史
+`git reflog`                         | 查看 git 操作历史
+`git show commit-id`                 | 查看某次 commit 的改动
+`git show commit-id filename`        | 查看某次 commit 对某个文件的改动
 
-`git show commit-id`
+### 提交代码
 
-2 想要查看某次commit的某个文件进行了哪些修改
+命令                            | 说明
+--------------------------------|-----------------------------------
+`git add .`                     | 将工作区所有改动添加到暂存区（谨慎使用）
+`git add path1/file1 path2 ...` | 将工作区指定路径下的改动或某文件的改动添加到暂存区
+`git commit -m xxx`             | 将暂存区提交为一个版本（必须有说明）
+`git commit --amend`            | 将暂存区提交到上一个commit中去(常用于补加东西或修改提交说明)
+`git rebase -i <commit1-id>^`   | 把commit1及其之后的几个commit合并为一个
+`git stash`                     | 将当前的改动全部暂时存放起来（此时再status将看不到那些改动）
+`git stash apply`               | 将之前存储起来的改动布置到当前代码中
 
-`git show commit-id filename`
+**rebase后的操作**：pick表示保留，f表示合并但不保留说明；最后末行模式执行 x 即可。
+
+### 拉取推送代码
+
+命令          | 说明
+--------------|----------------------------------------
+`git pull`    | 从对应的远程分支拉取代码到当前分支
+`git push`    | 将当前分支的commit推送到远程
+`git push -f` | 将当前分支的commit推送到远程(当历史commit不一致时用本地覆盖远程)
+
+### 版本回退
+
+命令                  | 说明
+----------------------|--------------------
+`git reset HEAD^^`    | 回退多个版本，几个 ^ 就表示几个版本
+`git reset HEAD~n`    | 回退 n 各版本
+`git reset commit-id` | 回退到制定版本
+
+**reset 的三个参数**：
+
+- `--mixed` 指定版本之后的所有版本的改动放到工作区
+- `--soft` 软回退，指定版本之后的所有版本的改动放到暂存区
+- `--hard` 指定版本之后的所有版本的改动都舍弃掉
+- 注意：当前工作区、暂存区也属于上述被操作的改动
+
+将暂存区回退到工作区：`git reset HEAD file1`
