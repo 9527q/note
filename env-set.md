@@ -1,6 +1,17 @@
 # 环境配置
 
-设置文件名大小写敏感：`git config core.ignorecase false`
+## Mac
+
+1. 安装 [Homebrew](https://brew.sh/index_zh-cn)：`/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
+
+## git
+
+1. 生成 ssh 密钥：`ssh-keygen`；将公钥放到 git 服务器上
+2. 用[查询网站的 IP 地址](http://tool.chinaz.com/dns)更改有关 github 的 hosts 配置
+   > github.com、github.global.ssl.fastly.net 和 github-cloud.s3.amazonaws.com（用于 lfs 大文件存储）
+3. 下载 git 大文件管理：`brew install git-lfs`
+   > 使用git-lfs进行大文件管理：`git lfs install`，`git lfs track "*.psd"`（每个工程执行）
+4. 设置文件名大小写敏感：`git config core.ignorecase false`（每个工程执行）
 
 ## Pycharm
 

@@ -34,3 +34,7 @@ o | i
 3. 自动保存设置：「左下角小齿轮」 ➡ 「Settings」 ➡ 「Commonly Used」 ➡ 「Files: Auto Save」，选择适合自己的
 4. 快捷键：用浏览器打开html文件，下载一个插件（⇧⌘X）：Open HTML in Default Browser
    ![vscode_open_html](images/vscode_open_html.png)
+
+## 插件
+
+- Markdown All in One

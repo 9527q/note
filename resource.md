@@ -76,6 +76,12 @@
   > 将一个网页的html、js、图片等所有东西打一个包
 - **[中国哲学书电子化计划](https://ctext.org/zhs)**
 - **[运维工程师资料库](http://www.opsschool.org/)**
+- **[1Mb](https://1mb.site)**
+  > 免费的静态网站托管，可以自定义域名
+- **[code2flow](https://code2flow.com/)**
+  > 用类似代码的方式生成流程图
+- **[查询网站的 IP 地址](http://tool.chinaz.com/dns)**
+- **[Homebrew](https://brew.sh/)**
 
 ## 工具
 
