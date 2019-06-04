@@ -1,8 +1,10 @@
 # 环境配置
 
+
 ## Mac
 
 1. 安装 [Homebrew](https://brew.sh/index_zh-cn)：`/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
+2. 软件：
 
 ## git
 
@@ -12,6 +14,15 @@
 3. 下载 git 大文件管理：`brew install git-lfs`
    > 使用git-lfs进行大文件管理：`git lfs install`，`git lfs track "*.psd"`（每个工程执行）
 4. 设置文件名大小写敏感：`git config core.ignorecase false`（每个工程执行）
+
+## 软件
+
+- all
+  - Wireshark、Webstorm、Chrome、TorBrowser、Anaconda、网易MuMu、微信、QQ
+- macOS
+  - Magnet、Mindnode、Hands Off!、Office、iTerm、Paw
+- Win
+  - Postman
 
 ## Pycharm
 
