@@ -58,11 +58,11 @@
 `git add .`                     | 将工作区所有改动添加到暂存区（谨慎使用）
 `git add path1/file1 path2 ...` | 将工作区指定路径下的改动或某文件的改动添加到暂存区
 `git commit -m xxx`             | 将暂存区提交为一个版本（必须有说明）
+`git commit`                    | 不加 -m 可以进入 commit 的编辑模式（也必须有说明）
 `git commit --amend`            | 将暂存区提交到上一个commit中去(常用于补加东西或修改提交说明)
 `git rebase -i <commit1-id>^`   | 把commit1及其之后的几个commit合并为一个
 `git stash`                     | 将当前的改动全部暂时存放起来（此时再status将看不到那些改动）
 `git stash apply`               | 将之前存储起来的改动布置到当前代码中
-
 **rebase后的操作**：pick表示保留，f表示合并但不保留说明；最后末行模式执行 x 即可。
 
 ### 1.5 拉取推送代码
@@ -90,9 +90,7 @@
 
 将暂存区回退到工作区：`git reset HEAD file1`
 
-## 2. 常见问题
-
-### 2.1 快速关联/修改 Git 远程仓库地址
+## 2 快速关联/修改 Git 远程仓库地址
 
 - 修改 .git 配置文件
    1. `vim .git/config`
@@ -102,13 +100,13 @@
   1. `git remote rm origin` (origin 是`git remote`的值)
   2. `git remote add orgin <git-url>` (origin 是`git remote`的值)
 
-### 2.2 GitHub 下载速度慢
+## 3 GitHub 下载速度慢
 
 1. 打开网址：[查询网站的 IP 地址](http://tool.chinaz.com/dns)
 2. 查询 github.com、github.global.ssl.fastly.net 和 github-cloud.s3.amazonaws.com（用于 lfs 大文件存储）
 3. 将 TTL 值小的放到 hosts 文件中
 
-### 2.3 大文件存储
+## 4 大文件存储
 
 使用 [LFS （Git Large File Storage）](https://git-lfs.github.com/)，设置好后所有的操作都和普通情况下一样，但是 git 对大文件不会再进行行(hang)级别的管理。而是把大文件单独存放在一个地方，在工程中仅存储文本指针。即使大到几个 G，也能正常管理，整个的 git 工作流程不需要有任何变化，权限也是和仓库其余部分完全一样。总的来说，设置好后就什么都不用管了。
 
@@ -120,3 +118,60 @@
    1. 如果是第一次执行此命令，会同时生成一个 .gitattributes 文件
    2. 如果不是第一次执行此命令，会将文件名表达是自动写入 .gitattributes 文件中
 4. 然后就可以当作忘了这个事一样正常的去add、commit、push，都没问题。
+
+## 5 设置 commit 钩子
+
+1. 安装 [pre-commit](https://pre-commit.com/)
+    ```bash
+    pip install pre-commit
+    ```
+2. 在具体项目中激活 pre-commit
+    ```bash
+    # 项目目录中
+    $ pre-commit install
+    ```
+3. 项目中添加文件 [`.pre-commit-config.yaml`](https://github.com/pre-commit/pre-commit/blob/master/.pre-commit-config.yaml)
+    ```
+    repos:
+    -   repo: https://github.com/pre-commit/pre-commit-hooks
+        rev: v2.1.0
+        hooks:
+        -   id: trailing-whitespace
+        -   id: end-of-file-fixer
+        -   id: check-docstring-first
+        -   id: check-json
+        -   id: check-yaml
+        -   id: debug-statements
+        -   id: name-tests-test
+        -   id: requirements-txt-fixer
+        -   id: double-quote-string-fixer
+    -   repo: https://gitlab.com/pycqa/flake8
+        rev: 3.7.7
+        hooks:
+        -   id: flake8
+    -   repo: https://github.com/pre-commit/mirrors-autopep8
+        rev: v1.4.3
+        hooks:
+        -   id: autopep8
+    -   repo: https://github.com/pre-commit/pre-commit
+        rev: v1.14.4
+        hooks:
+        -   id: validate_manifest
+    -   repo: https://github.com/asottile/pyupgrade
+        rev: v1.12.0
+        hooks:
+        -   id: pyupgrade
+    -   repo: https://github.com/asottile/reorder_python_imports
+        rev: v1.4.0
+        hooks:
+        -   id: reorder-python-imports
+            language_version: python3
+    -   repo: https://github.com/asottile/add-trailing-comma
+        rev: v1.0.0
+        hooks:
+        -   id: add-trailing-comma
+    -   repo: meta
+        hooks:
+        -   id: check-hooks-apply
+        -   id: check-useless-excludes
+    ```
