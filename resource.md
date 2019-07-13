@@ -40,6 +40,7 @@
   - [Mac 软件资源站](http://mac.orsoon.com/) ¥
 - Windows
   - [PanDownload 摆渡往盘不限速下载](http://pandownload.com/)
+- [es 各组件各版本下载](https://www.elastic.co/cn/downloads/past-releases)
 
 ### 命令行
 
@@ -114,3 +115,52 @@
 - https://mitpress.mit.edu/books/introduction-algorithms-third-edition
 - https://ziyuan.baidu.com/linksubmit/url
 - [Teach Yourself Computer Science 计算机科学该会的知识](https://teachyourselfcs.com/)
+- $JAVA_HOME: https://www.cnblogs.com/ostrich-sunshine/p/8414677.html 、 https://www.cnblogs.com/web-fengmin/p/6582760.html
+- es: https://www.elastic.co/cn/webinars/getting-started-elasticsearch?baymax=rtp&elektra=home&storm=sub1&iesrc=ctr 、 https://www.elastic.co/cn/downloads/elasticsearch 、 https://www.elastic.co/cn/start 、 https://www.elastic.co/cn/downloads/kibana 、 https://www.elastic.co/cn/downloads/past-releases#elasticsearch
+
+
+
+```chart
+,Budget,Income,Expenses,Debt
+June,5000,8000,4000,6000
+July,3000,1000,4000,3000
+Aug,5000,7000,6000,3000
+Sep,7000,2000,3000,1000
+Oct,6000,5000,4000,2000
+Nov,4000,3000,5000,
+
+type: pie
+title: Monthly Revenue
+x.title: Amount
+y.title: Month
+y.suffix: $
+```
+
+
+```math
+e^{i\pi} + 1 = 0
+```
+```mermaid
+graph TD
+A[模块A] -->|A1| B(模块B)
+B --> C{判断条件C}
+C -->|条件C1| D[模块D]
+C -->|条件C2| E[模块E]
+C -->|条件C3| F[模块F]
+```
+```mermaid
+sequenceDiagram
+A->>B: 是否已收到消息？
+B-->>A: 已收到消息
+```
+```mermaid
+gantt
+title 甘特图
+dateFormat  YYYY-MM-DD
+section 项目A
+任务1           :a1, 2018-06-06, 30d
+任务2     :after a1  , 20d
+section 项目B
+任务3      :2018-06-12  , 12d
+任务4      : 24d
+```
