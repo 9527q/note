@@ -47,6 +47,10 @@
 - [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
 - [有道词典](https://github.com/felixonmars/ydcv) 、 [网易云音乐](https://github.com/darknessomi/musicbox)
 
+### 其他
+
+- [Graph models(画Django模型类关系的库)](https://django-extensions.readthedocs.io/en/latest/graph_models.html)
+
 ## 文档、教程、书籍
 
 - [pythondoc](http://www.pythondoc.com)
