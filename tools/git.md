@@ -1,8 +1,8 @@
 # GIT
 
-设置大小写敏感，`git config core.ignorecase false`
+**设置文件名大小写敏感**，`git config core.ignorecase false` （重要！！）
 
-本地分支和远程分支是相互独立的
+**本地分支和远程分支是相互独立的**，分布式，说白了就是谁都不是老大，也许你一直不理解这句话也能正常开发正常使用 git，也许某一天会惊呼😯原来是这个意思
 
 ## 1. 常用命令
 
@@ -37,7 +37,7 @@
 `git status`                          | 查看当前仓库的改动情况（文件级别）
 `git diff`                            | 以本地仓库为基准，工作区所做的改动
 `git diff <branch1> <branch2>`        | 以分支1为基准，分支2所做的改动
-`git diff <commit1-id> <commit2-id>`  | 以commit1为基准，commit2所做的改动
+`git diff <commit1-id> <commit2-id>`  | 以 commit1 为基准，commit2所做的改动
 `git diff path1 path2 ...`            | 查看多个路径或文件的改动情况（不是他们之间的比较）
 `git blame path/file`                 | 查看某具体文件的各行代码是在哪个版本哪个人改动的
 `git log`                             | 查看 commit 历史
@@ -59,11 +59,11 @@
 `git add path1/file1 path2 ...` | 将工作区指定路径下的改动或某文件的改动添加到暂存区
 `git commit -m xxx`             | 将暂存区提交为一个版本（必须有说明）
 `git commit`                    | 不加 -m 可以进入 commit 的编辑模式（也必须有说明）
-`git commit --amend`            | 将暂存区提交到上一个commit中去(常用于补加东西或修改提交说明)
-`git rebase -i <commit1-id>^`   | 把commit1及其之后的几个commit合并为一个
-`git stash`                     | 将当前的改动全部暂时存放起来（此时再status将看不到那些改动）
+`git commit --amend`            | 将暂存区提交到上一个 commit 中去(常用于补加东西或修改提交说明)
+`git rebase -i <commit1-id>^`   | 把 commit1 及其之后的几个 commit 合并为一个
+`git stash`                     | 将当前的改动全部暂时存放起来（此时再 status 将看不到那些改动）
 `git stash apply`               | 将之前存储起来的改动布置到当前代码中
-**rebase后的操作**：pick表示保留，f表示合并但不保留说明；最后末行模式执行 x 即可。
+**rebase后的操作**：pick 表示保留，f 表示合并但不保留说明；最后末行模式执行 `x` 即可。
 
 ### 1.5 拉取推送代码
 
@@ -73,7 +73,17 @@
 `git push`    | 将当前分支的commit推送到远程
 `git push -f` | 将当前分支的commit推送到远程(当历史commit不一致时用本地覆盖远程)
 
-### 1.6 版本回退
+### 1.6 开发时的更新代码
+
+实际开发中如果使用 merge 来更新本地代码，就会出现分支路线混乱的情况，使用 fetch+rebase可以让分支流程更加清晰。
+
+命令 ｜ 说明
+-｜-
+`git fetch [origin]` | 更新远程的代码到本地来（没有放到分支里，只是在缓存中）
+`git rebase origin/develop` | 把当前分支代码变基到远程的 develop 分支(分支还是在当前分支，但是远程develop的代码也到本分支了并且是作为基础的(不是merge过来的不会有merge记录)))
+`git rebase --continue` | rebase 出现冲突后要解决冲突，add 文件，然后执行此命令完成 rebase 过程
+
+### 1.7 版本回退
 
 命令                  | 说明
 ----------------------|--------------------
