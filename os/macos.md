@@ -73,6 +73,12 @@ lsof -i tcp:8080
 sudo spctl --master-disable
 ```
 
+- md5
+
+```sh
+md5 [files ...]
+```
+
 ## 查看某个应用的内部文件
 
 「访达」中右键点击应用 → 「显示包内容」

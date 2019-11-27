@@ -12,23 +12,24 @@ Linux可以运行在服务器和其他大型平台之上，如大型计算机和
 
 ## 常用命令
 
-命令 | 使用 | 说明
--|-|-
-~ | | 当前用户家目录
-/ | | 根目录
-. | | 当前目录
-.. | | 上级目录
-cd | cd path | change directory 切换到 path 路径下
- | cd | 不加参数：切换到家目录
- | cd - | 之前的目录
-df | df -h | 查看各文件系统空间使用情况
-top | | 查看系统实时运行情况
-service | service serve_name opt | opt: status/start/stop`,服务状态、开启、关闭
-locale | 将语言环境的信息写到标准输出
-tail | tail file | 查看文件 file 最后 10 行的内容
-| tail -number file | 查看文件 file 最后 number 行
-| tail +number file | 查看文件 file 第 number 行（包括）之后的内容
-| tail -f file | 查看文件 file 最后10行的实时内容
+命令    | 使用                     | 说明
+--------|--------------------------|-----------------------------------
+~       |                          | 当前用户家目录
+/       |                          | 根目录
+.       |                          | 当前目录
+..      |                          | 上级目录
+cd      | `cd path`                | change directory 切换到 path 路径下
+        | `cd`                     | 不加参数：切换到家目录
+        | `cd -`                   | 之前的目录
+df      | `df -h`                  | 查看各文件系统空间使用情况
+top     |                          | 查看系统实时运行情况
+service | `service serve_name opt` | opt: status/start/stop`,服务状态、开启、关闭
+locale  |                          | 将语言环境的信息写到标准输出
+tail    | `tail file`              | 查看文件 file 最后 10 行的内容
+        | `tail -number file`      | 查看文件 file 最后 number 行
+        | `tail +number file`      | 查看文件 file 第 number 行（包括）之后的内容
+        | `tail -f file`           | 查看文件 file 最后10行的实时内容
+md5sum  | `md5sum [files ...]`     | 查看文件的 md5
 
 ## 常用文件
 
