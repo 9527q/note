@@ -18,6 +18,7 @@
   - [SM.MS 图床(有删除接口)](https://sm.ms/)
   - [code2flow 代码->流程图](https://code2flow.com/)
   - [LaTeX 公式编辑器](http://www.codecogs.com/latex/eqneditor.php)
+  - 流程图、思维导图等：[ProcessOn](https://www.processon.com/)
 -  查看、查询
    - [测网速](http://www.speedtest.net) 、 [检测OS/浏览器/分辨率/端口](http://www.gensee.com/test.html) 、 [IP 查询](http://tool.chinaz.com/dns)
    - [航班追踪](http://flightadsb.variflight.com)
@@ -33,6 +34,7 @@
 - [42.zip](https://unforgettable.dk/)
 - [IntelliJ IDEA 注册码](http://idea.lanyus.com)
 - [NN Playground](http://playground.tensorflow.org)
+- [雨水白噪声](https://rainymood.com/)
 
 ### 软件
 
@@ -65,7 +67,6 @@
 - [中国哲学书电子化计划](https://ctext.org/zhs)
 - [《problem solving with algorithms and data structure using python》的中文版](https://github.com/facert/python-data-structure-cn)
 - [Molecule 每月介绍一种化学分子](http://www.chm.bris.ac.uk/motm/motm.htm)
-
 
 ## 文章
 
