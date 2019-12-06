@@ -1,4 +1,4 @@
-# Excel
+# [Excel](https://support.office.com/zh-cn/excel)
 
 > **表达式使用方式**：输入单元格内容时使用 `=` 开头，就被认为是一个公式
 
