@@ -1,6 +1,6 @@
 # 资源汇总
 
-## 站点 ｜ 文档
+## 社区 ｜ 站点 ｜ 文档
 
 [V2EX](https://www.v2ex.com) ｜ [LearnKu](https://learnku.com)
 
@@ -95,13 +95,18 @@
 - [知乎上的44条神回复，针针见血，看完整个人通透多了](https://mp.weixin.qq.com/s?__biz=MzA4MzQzMTg3Mw==&mid=2686285856&idx=7&sn=fe5bbe7e87d8613260aeaa30f9a25c89&chksm=ba1f408e8d68c998a081c75cd74a40d46cf45eaef843ae9ba90bdacc3dd578fc7cb7fbcd2811&scene=0#rd)
 - [最有效的五步推销法](http://www.ruanyifeng.com/blog/2018/11/most-effective-sales-promotion.html)
 
-## 有意思
+## 游戏
 
-- 在线游戏
-  - [新合金弹头](http://www.4399.com/flash/1809.htm#search3) 、 [Euclidea 平面几何作图(有app，自寻)](https://www.euclidea.xyz/en/game/packs/) 、 [键盘弹钢琴](http://www.autopiano.cn/)
-  - [CodeTank](http://codetank.alloyteam.com/) 、 [Voxel三维积木建模](https://www.makerbean.com/voxelbuilder#C/2646532a9d8fe9c46af4a261e76f51:A/) 、 [极客战记](https://codecombat.163.com) 、 [飞行模拟器](https://www.geo-fs.com/int/cn/index.php)
-  - [文字修仙](https://louisalflame.github.io/CFantasyClick/index.html)
-    > console外挂 `for(var i = 0; i< 50000; i++)**$(".btn.btn-lg.btn-default")**.click()**`
+[新合金弹头](http://www.4399.com/flash/1809.htm#search3)
+
+[Euclidea 平面几何作图(有app)](https://www.euclidea.xyz/en/game/packs/) | [Voxel三维积木建模](https://www.makerbean.com/voxelbuilder#C/2646532a9d8fe9c46af4a261e76f51:A/)
+
+[CodeTank](http://codetank.alloyteam.com/) | [极客战记](https://codecombat.163.com)
+
+[飞行模拟器](https://www.geo-fs.com/int/cn/index.php)
+
+[文字修仙](https://louisalflame.github.io/CFantasyClick/index.html)
+> console外挂 `for(var i = 0; i< 50000; i++)**$(".btn.btn-lg.btn-default")**.click()**`
 - [996.ICU](http://996.icu)
 - [不存在的人 每次访问返回一张对抗神经网络生成的人脸图片](https://thispersondoesnotexist.com)
 
