@@ -1,11 +1,18 @@
 # 资源汇总
 
-[V2EX](https://www.v2ex.com) 、 [实验吧](http://www.shiyanbar.com/ctf/) 、 [kaggle](https://www.kaggle.com) 、 [洛谷](https://www.luogu.org/) 、 [learnku](https://learnku.com)
+## 社区
+
+[V2EX](https://www.v2ex.com)
+[实验吧](http://www.shiyanbar.com/ctf/)
+[kaggle](https://www.kaggle.com)
+[洛谷](https://www.luogu.org/)
+[learnku](https://learnku.com)
 
 ## 个人站
 
-- [阮一峰](http://www.ruanyifeng.com/home.html) 、 [廖雪峰](https://www.liaoxuefeng.com/)
-- [郝](http://118.190.215.104/) 、 [当然我在扯淡](http://www.yinwang.org/) 、 [xxxspy](https://mlln.cn/) 、 [🌞Chengwei's World](http://www.chengweiyang.cn/)
+[阮一峰](http://www.ruanyifeng.com/home.html)
+[廖雪峰](https://www.liaoxuefeng.com/)
+[郝](http://118.190.215.104/)
 
 ## 工具、资源
 
