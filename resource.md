@@ -83,7 +83,6 @@
 - [数据结构和算法可视化（有中文版）](https://visualgo.net/zh)
 - [运维工程师资料库](http://www.opsschool.org/)
 - [Data Structure Visualizations](https://www.cs.usfca.edu/~galles/visualization/Algorithms.html)
-- [中国哲学书电子化计划](https://ctext.org/zhs)
 - [《problem solving with algorithms and data structure using python》的中文版](https://github.com/facert/python-data-structure-cn)
 - [Molecule 每月介绍一种化学分子](http://www.chm.bris.ac.uk/motm/motm.htm)
 
@@ -107,8 +106,7 @@
 
 [文字修仙](https://louisalflame.github.io/CFantasyClick/index.html)
 > console外挂 `for(var i = 0; i< 50000; i++)**$(".btn.btn-lg.btn-default")**.click()**`
-- [996.ICU](http://996.icu)
-- [不存在的人 每次访问返回一张对抗神经网络生成的人脸图片](https://thispersondoesnotexist.com)
+
 
 ## TODO
 
@@ -116,33 +114,8 @@
 - 复杂sql：https://ask.csdn.net/questions/749453
 - 复杂sql：http://www.cnblogs.com/netserver/p/4518995.html
 - tensorflow。js恐龙游戏：http://www.ruanyifeng.com/blog/2018/11/weekly-issue-29.html
-- sql：https://www.cnblogs.com/xiao-momo/p/5810335.html
-- gitbook：https://www.chengweiyang.cn/gitbook/introduction/README.html
 - Free Solo 国家地理纪录片
 - python matplotlib动态展示：https://blog.csdn.net/zyxhangiian123456789/article/details/89159530
-- 开源中国APP，一品威客，云沃客，码市，程序员客栈，自客
-- https://blog.csdn.net/chen_zhang_yu/article/details/52415077
-- https://code.ziqiangxuetang.com/django/django-queryset-advance.html
-- https://mp.weixin.qq.com/s/B_aNB8Y8snbSVLURONZ4Qg
-- https://grokbase.com/t/gg/django-users/13arcnxn8z/python-shell-displays-segmentation-fault-11-after-upgrade-to-mavericks-os
-- http://www.runoob.com/mysql/mysql-update-query.html
 - https://bugs.python.org/issue18458#msg201087
-- https://blog.csdn.net/witch_soya/article/details/37595885
-- https://blog.csdn.net/hfutdog/article/details/81711973
-- https://blog.csdn.net/gaopeng0071/article/details/79402399
-- flutter
-- http://asciiflow.com/
-- http://zy2071.com/Fun/todayJueJin.html
-- https://juejin.im/
-- https://hellogithub.com/
-- https://www.pypandas.cn/index.html
-- https://blog.csdn.net/g2V13ah/article/details/80863213
-- http://www.dataguru.cn/article-12008-1.html
-- https://www.cnblogs.com/junge-mike/p/9335054.html
-- https://natapp.cn
-- https://blog.csdn.net/g2v13ah/article/details/78474370
-- https://mitpress.mit.edu/books/introduction-algorithms-third-edition
 - https://ziyuan.baidu.com/linksubmit/url
 - [Teach Yourself Computer Science 计算机科学该会的知识](https://teachyourselfcs.com/)
-- $JAVA_HOME: https://www.cnblogs.com/ostrich-sunshine/p/8414677.html 、 https://www.cnblogs.com/web-fengmin/p/6582760.html
-- es: https://www.elastic.co/cn/webinars/getting-started-elasticsearch?baymax=rtp&elektra=home&storm=sub1&iesrc=ctr 、 https://www.elastic.co/cn/downloads/elasticsearch 、 https://www.elastic.co/cn/start 、 https://www.elastic.co/cn/downloads/kibana 、 https://www.elastic.co/cn/downloads/past-releases#elasticsearch
