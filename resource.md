@@ -1,67 +1,83 @@
 # 资源汇总
 
-## 社区
+## 站点 ｜ 文档
 
-[V2EX](https://www.v2ex.com) ｜ [实验吧](http://www.shiyanbar.com/ctf/) ｜ [kaggle](https://www.kaggle.com) ｜ [洛谷](https://www.luogu.com.cn/) ｜ [learnku](https://learnku.com)
+[V2EX](https://www.v2ex.com) ｜ [LearnKu](https://learnku.com)
 
-## 个人博客站
+[实验吧](http://www.shiyanbar.com/ctf/) ｜ [kaggle](https://www.kaggle.com) ｜ [洛谷](https://www.luogu.com.cn/)
+
+[TensorFlow中文社区](http://www.tensorfly.cn/)
+
+[ES 各组件各版本](https://www.elastic.co/cn/downloads/past-releases)
 
 [阮一峰](http://www.ruanyifeng.com/home.html) ｜ [廖雪峰](https://www.liaoxuefeng.com/)
 
 [郝](http://118.190.215.104:84/)
 
-## 工具、资源
+## 资源
 
-### 在线
+图站：
+[ART INSTITATE CHICAGO](https://www.artic.edu/collection?is_public_domain=1) ｜ [free stock photos 有搜索功能](https://www.pexels.com) ｜ [unsplash](https://unsplash.com)
 
-- 图
-  - 图站：[ART INSTITATE CHICAGO](https://www.artic.edu/collection?is_public_domain=1) 、 [free stock photos 有搜索功能](https://www.pexels.com) 、 [unsplash](https://unsplash.com)
-  - 图标：[Iconfont 阿里巴巴图标库](https://www.iconfont.cn) 、 [Icons for everything 图标大全](https://thenounproject.com/) 、 [用图片搜索左侧网站上的类似图标](http://compute.vision/nouns/index.html)
-  - [改图|水印|二维码](https://www.gaitubao.com) 、 [removebg 去除图片背景(可url)](https://www.remove.bg)
-  - [SM.MS 图床(有删除接口)](https://sm.ms/)
-  - [code2flow 代码->流程图](https://code2flow.com/)
-  - [LaTeX 公式编辑器](http://www.codecogs.com/latex/eqneditor.php)
-  - 流程图、思维导图等：[ProcessOn](https://www.processon.com/)
--  查看、查询
-   - [测网速](http://www.speedtest.net) 、 [检测OS/浏览器/分辨率/端口](http://www.gensee.com/test.html) 、 [IP 查询](http://tool.chinaz.com/dns)
-   - [航班追踪](http://flightadsb.variflight.com)
-   - [METO API 音乐测试](https://api.i-meto.com/music.page)
-   - [Urban Dictionary 英语方言词典](https://www.urbandictionary.com/)
-   - [githistory 查看GitHub文件编辑历史](https://github.com/pomber/git-history)
-   - [查询数字在圆周率中的位置/查询圆周率第几位](https://www.1415926pi.com)
-   - [久久时间网](http://bjtime.cn)
-- [keyzen 打字练习](https://wwwtyro.github.io/keyzen/)
-- [1Mb 静态网站托管](https://1mb.site)
-- 代码分享：[codeshare 可管理](https://codeshare.io) 、 [ubuntu pastebin 不可管理](https://paste.ubuntu.com)
-- [生成 nginx 配置](https://nginxconfig.io/) 、 [生成 gitignore](https://gitignore.io/)
-- [42.zip](https://unforgettable.dk/)
-- [IntelliJ IDEA 注册码](http://idea.lanyus.com)
-- [NN Playground](http://playground.tensorflow.org)
-- [雨水白噪声](https://rainymood.com/)
+图标：
+[Iconfont 阿里巴巴图标库](https://www.iconfont.cn) ｜ [Icons for everything 图标大全](https://thenounproject.com/) ｜ [用图片搜索左侧网站上的类似图标](http://compute.vision/nouns/index.html)
 
-### 软件
+[42.zip](https://unforgettable.dk/)
 
-- macOS
-  - [Mac 软件资源站](http://mac.orsoon.com/) ¥
-- Windows
-  - [PanDownload 摆渡往盘不限速下载](http://pandownload.com/)
-- [es 各组件各版本下载](https://www.elastic.co/cn/downloads/past-releases)
+[雨水白噪声](https://rainymood.com/)
 
-### 命令行
+[Mac 软件资源站 ¥](http://mac.orsoon.com/)
 
-- [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
-- [有道词典](https://github.com/felixonmars/ydcv) 、 [网易云音乐](https://github.com/darknessomi/musicbox)
+[PanDownload 摆渡往盘不限速下载(win)](http://pandownload.com/)
 
-### 其他
+## 工具
 
-- [Graph models(画Django模型类关系的库)](https://django-extensions.readthedocs.io/en/latest/graph_models.html)
+[改图|水印|二维码](https://www.gaitubao.com) ｜ [removebg 去除图片背景(可url)](https://www.remove.bg) ｜ [SM.MS 图床(有删除接口)](https://sm.ms/)
 
-## 文档、教程、书籍
+[code2flow 代码->流程图](https://code2flow.com/) ｜ [ProcessOn（流程图、思维导图）](https://www.processon.com/)
 
-- [pythondoc](http://www.pythondoc.com)
-- [TensorFlow中文社区](http://www.tensorfly.cn/)
-- [Markdown 语法说明 (简体中文版)](https://www.appinn.com/markdown/#list)
-- [edabit 编程练习题](https://edabit.com/challenges)
+[LaTeX 公式编辑器](http://www.codecogs.com/latex/eqneditor.php)
+
+[网页测网速](http://www.speedtest.net) ｜ [网页检测OS/浏览器/分辨率/端口](http://www.gensee.com/test.html) ｜ [IP 查询](http://tool.chinaz.com/dns)
+
+[航班追踪](http://flightadsb.variflight.com)
+
+[METO API 音乐测试](https://api.i-meto.com/music.page)
+
+[Urban Dictionary 英语方言词典](https://www.urbandictionary.com/)
+
+[githistory 优美查看GitHub上文件编辑历史](https://github.com/pomber/git-history)
+
+[查询数字在圆周率中的位置/查询圆周率第几位](https://www.1415926pi.com)
+
+[久久时间网](http://bjtime.cn)
+
+[keyzen 打字练习](https://wwwtyro.github.io/keyzen/)
+
+[1Mb 静态网站托管](https://1mb.site)
+
+代码分享：
+[codeshare 可管理](https://codeshare.io) ｜ [ubuntu pastebin 不可管理](https://paste.ubuntu.com)
+
+[生成 nginx 配置](https://nginxconfig.io/) ｜ [生成 gitignore](https://gitignore.io/)
+
+[IntelliJ IDEA 注册码](http://idea.lanyus.com)
+
+[NN Playground](http://playground.tensorflow.org)
+
+[oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
+
+[命令行有道词典](https://github.com/felixonmars/ydcv)
+
+[命令行网易云音乐](https://github.com/darknessomi/musicbox)
+
+[Graph models(画Django模型类关系的库)](https://django-extensions.readthedocs.io/en/latest/graph_models.html)
+
+[Markdown 语法说明 (简体中文版)](https://www.appinn.com/markdown/#list)
+
+[edabit 编程练习题](https://edabit.com/challenges)
+
+
 - [GitHub Learning Lab](https://lab.github.com/courses)
 - 前端特效：[CSS实现悬浮效果](https://mp.weixin.qq.com/s?__biz=MjM5NTY1MjY0MQ==&mid=2650742344&idx=3&sn=fdafa8bec7ab21dfbacb29ea2d605da5&chksm=befe8b0689890210df8483d008a5a354f988247d68f5c023df5865d985437119a88092ab7535&mpshare=1&scene=1&srcid=08174UHCvIUBYXARiory21k9#rd) 、 [sojson 特效](https://www.sojson.com/blog/127.html)
 - [数据结构和算法可视化（有中文版）](https://visualgo.net/zh)
