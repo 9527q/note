@@ -2,7 +2,7 @@
 
 ## 社区
 
-[V2EX](https://www.v2ex.com)、[实验吧](http://www.shiyanbar.com/ctf/)、[kaggle](https://www.kaggle.com)、[洛谷](https://www.luogu.org/)、[learnku](https://learnku.com)
+[V2EX](https://www.v2ex.com)｜[实验吧](http://www.shiyanbar.com/ctf/)｜[kaggle](https://www.kaggle.com)｜[洛谷](https://www.luogu.org/)｜[learnku](https://learnku.com)
 
 ## 个人站
 
@@ -123,5 +123,3 @@
 - [Teach Yourself Computer Science 计算机科学该会的知识](https://teachyourselfcs.com/)
 - $JAVA_HOME: https://www.cnblogs.com/ostrich-sunshine/p/8414677.html 、 https://www.cnblogs.com/web-fengmin/p/6582760.html
 - es: https://www.elastic.co/cn/webinars/getting-started-elasticsearch?baymax=rtp&elektra=home&storm=sub1&iesrc=ctr 、 https://www.elastic.co/cn/downloads/elasticsearch 、 https://www.elastic.co/cn/start 、 https://www.elastic.co/cn/downloads/kibana 、 https://www.elastic.co/cn/downloads/past-releases#elasticsearch
-
-
