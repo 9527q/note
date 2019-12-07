@@ -8,7 +8,7 @@
 
 [实验吧](http://www.shiyanbar.com/ctf/) ｜ [kaggle](https://www.kaggle.com) ｜ [洛谷](https://www.luogu.com.cn/) ｜ [edabit](https://edabit.com/challenges)(编程练习题)
 
-[TensorFlow 中文社区](http://www.tensorfly.cn/)
+[TensorFlow 中文社区](http://www.tensorfly.cn/) ｜ [NN Playground](http://playground.tensorflow.org)
 
 [GitHub Learning Lab](https://lab.github.com/)(教你怎么用 GitHub)
 
@@ -27,8 +27,6 @@
 图标：
 [Iconfont 阿里巴巴图标库](https://www.iconfont.cn) ｜ [Icons for everything 图标大全](https://thenounproject.com/) ｜ [用图片搜索左侧网站上的类似图标](http://compute.vision/nouns/index.html)
 
-[42.zip](https://unforgettable.dk/)
-
 [雨水白噪声](https://rainymood.com/)
 
 [Mac 软件资源站](http://mac.orsoon.com/)
@@ -36,6 +34,8 @@
 [PanDownload(Win)](http://pandownload.com/)
 
 [ES 各组件各版本](https://www.elastic.co/cn/downloads/past-releases)
+
+[42.zip](https://unforgettable.dk/)
 
 ## 工具
 
@@ -53,11 +53,17 @@
 
 [Urban Dictionary 英语方言词典](https://www.urbandictionary.com/)
 
-[githistory](https://github.com/pomber/git-history)(优美查看GitHub上文件编辑历史)
-
 [查询数字在圆周率中的位置/查询圆周率第几位](https://www.1415926pi.com)
 
 [久久时间网](http://bjtime.cn)
+
+[命令行有道词典](https://github.com/felixonmars/ydcv) ｜ [命令行网易云音乐](https://github.com/darknessomi/musicbox)
+
+[百度链接提交](https://ziyuan.baidu.com/linksubmit/url)
+
+### 开发
+
+[githistory](https://github.com/pomber/git-history)(优美查看GitHub上文件编辑历史)
 
 [1Mb 静态网站托管](https://1mb.site)
 
@@ -68,15 +74,9 @@
 
 [IntelliJ IDEA 注册码](http://idea.lanyus.com)
 
-[NN Playground](http://playground.tensorflow.org)
-
 [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
 
-[命令行有道词典](https://github.com/felixonmars/ydcv) | [命令行网易云音乐](https://github.com/darknessomi/musicbox)
-
 [Graph models(画Django模型类关系的库)](https://django-extensions.readthedocs.io/en/latest/graph_models.html)
-
-[百度链接提交](https://ziyuan.baidu.com/linksubmit/url)
 
 ## 前端特效
 
