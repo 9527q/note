@@ -6,7 +6,7 @@
 
 [阮一峰](http://www.ruanyifeng.com/home.html) ｜ [廖雪峰](https://www.liaoxuefeng.com/) ｜ [郝](http://118.190.215.104:84/)
 
-[实验吧](http://www.shiyanbar.com/ctf/) ｜ [kaggle](https://www.kaggle.com) ｜ [洛谷](https://www.luogu.com.cn/) ｜ [edabit](https://edabit.com/challenges)(编程练习题)
+[实验吧](http://www.shiyanbar.com/ctf/) ｜ [kaggle](https://www.kaggle.com) ｜ [洛谷](https://www.luogu.com.cn/) ｜ [edabit](https://edabit.com/challenges)(编程练习题) ｜ [牛客网](https://www.nowcoder.com/)
 
 [TensorFlow 中文社区](http://www.tensorfly.cn/) ｜ [NN Playground](http://playground.tensorflow.org)
 
