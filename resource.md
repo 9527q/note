@@ -16,8 +16,11 @@
 
 [Molecule](http://www.chm.bris.ac.uk/motm/motm.htm)(每月介绍一种化学分子)
 
-- [数据结构和算法动态可视化(中文版)](https://visualgo.net/zh)
-- [《problem solving with algorithms and data structure using python》的中文版](https://github.com/facert/python-data-structure-cn)
+[数据结构和算法动态可视化(中文版)](https://visualgo.net/zh)
+
+[《problem solving with algorithms and data structure using python》的中文版](https://github.com/facert/python-data-structure-cn)
+
+[哈佛大学公开课：公正-该如何做是好？](http://open.163.com/special/justice/)
 
 ## 资源
 
