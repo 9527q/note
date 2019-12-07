@@ -93,6 +93,7 @@
 - [知乎上的44条神回复，针针见血，看完整个人通透多了](https://mp.weixin.qq.com/s?__biz=MzA4MzQzMTg3Mw==&mid=2686285856&idx=7&sn=fe5bbe7e87d8613260aeaa30f9a25c89&chksm=ba1f408e8d68c998a081c75cd74a40d46cf45eaef843ae9ba90bdacc3dd578fc7cb7fbcd2811&scene=0#rd)
 - [最有效的五步推销法](http://www.ruanyifeng.com/blog/2018/11/most-effective-sales-promotion.html)
 - [毕业10年才懂，会升层思考，工作有多轻松？](https://developer.aliyun.com/article/738121?spm=a1z389.11499242.0.0.65452413JIV3mg&utm_content=g_1000092000)
+- [程序员的誓言](https://blog.cleancoder.com/uncle-bob/2015/11/18/TheProgrammersOath.html)
 
 ## 游戏
 
