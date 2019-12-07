@@ -4,7 +4,7 @@
 
 Markdown 是一种轻量级标记语言，创始人为约翰·格鲁伯（John Gruber）。它允许人们“使用易读易写的纯文本格式编写文档，然后转换成有效的XHTML（或者HTML）文档”。Markdown 文档的后缀为 .md。
 
-其实 Markdwon 就是指一种格式、一种标记，使用这种格式来编写纯文本文档，通过工具可以轻松的得到想要的样式。现在这个笔记就是通过编写 Markdown 文档再配合 gitbook 呈现出来的。
+其实 Markdwon 就是指一种格式、一种标记，使用这种格式来编写纯文本文档，通过工具可以轻松的得到想要的样式。Markdown 语法非常简单，几分钟就可以会用大部分语法。
 
 单纯的一个 Markdown 文档里面只是包含格式标记的文字而已，它必须和一个工具相配合才能展现其力量。现在很多的笔记软件（如印象、有道云）、博客网站（如CSDN、简书）、代码/文本编辑器（Pycharm、VS Code、Sublime）都直接支持或有插件支持编写、预览及导出 Markdown 格式文档。甚至有一些文本编辑器是专门用来编写 Markdown 文档的。
 
@@ -23,8 +23,6 @@ Markdown 是一种轻量级标记语言，创始人为约翰·格鲁伯（John G
 新建一个 Markdown 文档，在其中右键选择 「Markdown Preview Enhanced: Open Preview」（Mac版快捷键为 `⌘K V`），就能实时查看渲染的结果。
 
 ## 2. Markdown 语法
-
-Markdown 语法非常简单，几分钟就可以会用大部分语法。
 
 ### 2.1 标题
 
@@ -240,7 +238,3 @@ print('I am Groot.')
 内容左对齐列 | 内容和表头左对齐列 | 内容和表头居中列 | 内容和表头右对齐列
 *斜体* | **加粗** | [Markdown 百科](https://zh.wikipedia.org/wiki/Markdown)
 **_加粗斜体_** | 这就是表格 | 表格内容 | ![Markdwon 图标](images/Markdown.png) | 表格内容
-
-### 2.9 数学公式
-
-### 2.10 流程图
