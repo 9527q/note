@@ -31,9 +31,24 @@
 
 - 《西虹市首富》
 - 卡特相关
+不汗党
+角头二
+卑劣的街头
+扎职
+黑白森林
+恶人传
+同门
+头师傅一体
+
+v2ex 推荐的电影
 
 ### 编剧 查理•考夫曼 Charlie Kaufman
 
 - 《美丽心灵的永恒阳光》*Eternal Sunshine of the Spotless Mind*
   - [阮一峰解读](http://www.ruanyifeng.com/blog/2005/08/post_134.html)
 - all
+
+
+## 纪录片
+
+Free Solo 国家地理纪录片
