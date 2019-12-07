@@ -66,6 +66,7 @@ macOS 是苹果公司推出的图形用户界面操作系统，为Mac(Macintosh�
 `lsof -i :<port>`             | 查看使用 `port` 端口使用情况
 `sudo spctl --master-disable` | 「设置-安全性与隐私」中显示「任意来源」选项
 `md5 [files ...]`             | 查看某些文件的 MD5 值
+`kill -9 <pid>` | 杀死进程号为 `pid` 的进程
 
 ## 查看某个应用的内部文件
 
