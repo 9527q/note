@@ -1,23 +1,28 @@
 # 资源汇总
 
-## 社区 ｜ 站点 ｜ 文档
+## 社区 ｜ 课程 ｜ 文档
 
 [V2EX](https://www.v2ex.com) ｜ [LearnKu](https://learnku.com)
 
-[实验吧](http://www.shiyanbar.com/ctf/) ｜ [kaggle](https://www.kaggle.com) ｜ [洛谷](https://www.luogu.com.cn/)
+[阮一峰](http://www.ruanyifeng.com/home.html) ｜ [廖雪峰](https://www.liaoxuefeng.com/) ｜ [郝](http://118.190.215.104:84/)
 
-[TensorFlow中文社区](http://www.tensorfly.cn/)
+[实验吧](http://www.shiyanbar.com/ctf/) ｜ [kaggle](https://www.kaggle.com) ｜ [洛谷](https://www.luogu.com.cn/) ｜ [edabit](https://edabit.com/challenges)(编程练习题)
 
-[ES 各组件各版本](https://www.elastic.co/cn/downloads/past-releases)
+[TensorFlow 中文社区](http://www.tensorfly.cn/)
 
-[阮一峰](http://www.ruanyifeng.com/home.html) ｜ [廖雪峰](https://www.liaoxuefeng.com/)
+[GitHub Learning Lab](https://lab.github.com/)(教你怎么用 GitHub)
 
-[郝](http://118.190.215.104:84/)
+[Markdown 语法说明(简体中文版)](https://www.appinn.com/markdown/#list)
+
+[Molecule](http://www.chm.bris.ac.uk/motm/motm.htm)(每月介绍一种化学分子)
+
+- [数据结构和算法动态可视化(中文版)](https://visualgo.net/zh)
+- [《problem solving with algorithms and data structure using python》的中文版](https://github.com/facert/python-data-structure-cn)
 
 ## 资源
 
 图站：
-[ART INSTITATE CHICAGO](https://www.artic.edu/collection?is_public_domain=1) ｜ [free stock photos 有搜索功能](https://www.pexels.com) ｜ [unsplash](https://unsplash.com)
+[ART INSTITATE CHICAGO](https://www.artic.edu/collection?is_public_domain=1) ｜ [free stock photos](https://www.pexels.com)(有搜索功能) ｜ [unsplash](https://unsplash.com)
 
 图标：
 [Iconfont 阿里巴巴图标库](https://www.iconfont.cn) ｜ [Icons for everything 图标大全](https://thenounproject.com/) ｜ [用图片搜索左侧网站上的类似图标](http://compute.vision/nouns/index.html)
@@ -26,19 +31,21 @@
 
 [雨水白噪声](https://rainymood.com/)
 
-[Mac 软件资源站 ¥](http://mac.orsoon.com/)
+[Mac 软件资源站](http://mac.orsoon.com/)
 
-[PanDownload 摆渡往盘不限速下载(win)](http://pandownload.com/)
+[PanDownload(Win)](http://pandownload.com/)
+
+[ES 各组件各版本](https://www.elastic.co/cn/downloads/past-releases)
 
 ## 工具
 
 [改图|水印|二维码](https://www.gaitubao.com) ｜ [removebg 去除图片背景(可url)](https://www.remove.bg) ｜ [SM.MS 图床(有删除接口)](https://sm.ms/)
 
-[code2flow 代码->流程图](https://code2flow.com/) ｜ [ProcessOn（流程图、思维导图）](https://www.processon.com/)
+[code2flow](https://code2flow.com/)(代码->流程图) ｜ [ProcessOn](https://www.processon.com/)(流程图、思维导图)
 
 [LaTeX 公式编辑器](http://www.codecogs.com/latex/eqneditor.php)
 
-[网页测网速](http://www.speedtest.net) ｜ [网页检测OS/浏览器/分辨率/端口](http://www.gensee.com/test.html) ｜ [IP 查询](http://tool.chinaz.com/dns)
+[网页检测OS/浏览器/分辨率/端口](http://www.gensee.com/test.html) ｜ [IP 查询](http://tool.chinaz.com/dns)
 
 [航班追踪](http://flightadsb.variflight.com)
 
@@ -46,13 +53,11 @@
 
 [Urban Dictionary 英语方言词典](https://www.urbandictionary.com/)
 
-[githistory 优美查看GitHub上文件编辑历史](https://github.com/pomber/git-history)
+[githistory](https://github.com/pomber/git-history)(优美查看GitHub上文件编辑历史)
 
 [查询数字在圆周率中的位置/查询圆周率第几位](https://www.1415926pi.com)
 
 [久久时间网](http://bjtime.cn)
-
-[keyzen 打字练习](https://wwwtyro.github.io/keyzen/)
 
 [1Mb 静态网站托管](https://1mb.site)
 
@@ -67,24 +72,15 @@
 
 [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
 
-[命令行有道词典](https://github.com/felixonmars/ydcv)
-
-[命令行网易云音乐](https://github.com/darknessomi/musicbox)
+[命令行有道词典](https://github.com/felixonmars/ydcv) | [命令行网易云音乐](https://github.com/darknessomi/musicbox)
 
 [Graph models(画Django模型类关系的库)](https://django-extensions.readthedocs.io/en/latest/graph_models.html)
 
-[Markdown 语法说明 (简体中文版)](https://www.appinn.com/markdown/#list)
+[百度链接提交](https://ziyuan.baidu.com/linksubmit/url)
 
-[edabit 编程练习题](https://edabit.com/challenges)
+## 前端特效
 
-
-- [GitHub Learning Lab](https://lab.github.com/courses)
-- 前端特效：[CSS实现悬浮效果](https://mp.weixin.qq.com/s?__biz=MjM5NTY1MjY0MQ==&mid=2650742344&idx=3&sn=fdafa8bec7ab21dfbacb29ea2d605da5&chksm=befe8b0689890210df8483d008a5a354f988247d68f5c023df5865d985437119a88092ab7535&mpshare=1&scene=1&srcid=08174UHCvIUBYXARiory21k9#rd) 、 [sojson 特效](https://www.sojson.com/blog/127.html)
-- [数据结构和算法可视化（有中文版）](https://visualgo.net/zh)
-- [运维工程师资料库](http://www.opsschool.org/)
-- [Data Structure Visualizations](https://www.cs.usfca.edu/~galles/visualization/Algorithms.html)
-- [《problem solving with algorithms and data structure using python》的中文版](https://github.com/facert/python-data-structure-cn)
-- [Molecule 每月介绍一种化学分子](http://www.chm.bris.ac.uk/motm/motm.htm)
+[CSS 实现悬浮效果](https://mp.weixin.qq.com/s?__biz=MjM5NTY1MjY0MQ==&mid=2650742344&idx=3&sn=fdafa8bec7ab21dfbacb29ea2d605da5&chksm=befe8b0689890210df8483d008a5a354f988247d68f5c023df5865d985437119a88092ab7535&mpshare=1&scene=1&srcid=08174UHCvIUBYXARiory21k9#rd) | [sojson 背景特效](https://www.sojson.com/blog/127.html)
 
 ## 文章
 
@@ -100,22 +96,9 @@
 
 [Euclidea 平面几何作图(有app)](https://www.euclidea.xyz/en/game/packs/) | [Voxel三维积木建模](https://www.makerbean.com/voxelbuilder#C/2646532a9d8fe9c46af4a261e76f51:A/)
 
-[CodeTank](http://codetank.alloyteam.com/) | [极客战记](https://codecombat.163.com)
+[CodeTank](http://codetank.alloyteam.com/) | [极客战记](https://codecombat.163.com) | [CodeWar](https://www.codewar.cn/home)
 
 [飞行模拟器](https://www.geo-fs.com/int/cn/index.php)
 
 [文字修仙](https://louisalflame.github.io/CFantasyClick/index.html)
-> console外挂 `for(var i = 0; i< 50000; i++)**$(".btn.btn-lg.btn-default")**.click()**`
-
-
-## TODO
-
-- timsort：https://blog.csdn.net/yangzhongblog/article/details/8184707
-- 复杂sql：https://ask.csdn.net/questions/749453
-- 复杂sql：http://www.cnblogs.com/netserver/p/4518995.html
-- tensorflow。js恐龙游戏：http://www.ruanyifeng.com/blog/2018/11/weekly-issue-29.html
-- Free Solo 国家地理纪录片
-- python matplotlib动态展示：https://blog.csdn.net/zyxhangiian123456789/article/details/89159530
-- https://bugs.python.org/issue18458#msg201087
-- https://ziyuan.baidu.com/linksubmit/url
-- [Teach Yourself Computer Science 计算机科学该会的知识](https://teachyourselfcs.com/)
+<!-- console外挂 `for(var i = 0; i< 50000; i++)**$(".btn.btn-lg.btn-default")**.click()**` -->
