@@ -25,7 +25,7 @@
 
 **为某一个请求单独设置**
 
-1. 选择一个请求的 headers，新建一个键值对，键填入 `Cookies`，值输入 cookie 字样选择弹出的 Cookies 选项 ![paw-cookie-set1](images/paw-cookie-set1.png)
+1. 选择一个请求的 headers，新建一个键值对，键填入 `Cookie`（注意下面演示图中是错的，多了个s），值输入 cookie 字样选择弹出的 Cookies 选项 ![paw-cookie-set1](images/paw-cookie-set1.png)
 2. 双击值的 Cookies，依次输入之前已经找到的 cookie 键值对即可 ![paw-cookie-set2](images/paw-cookie-set2.jpg)
 
 **为某个域名下的所有请求设置**
