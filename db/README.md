@@ -3,7 +3,7 @@
 
 - [mysql](./mysql/README.md)
 - [redis](./redis.md)
-- [SQL 中的 null](./null-in-sql.md)
+- [SQL 中的 NULL](./null-in-sql.md)
 
 电子化的文件柜——存储电子文件的处所，用户可以对文件中的数据运行新增、截取、更新、删除等操作。
 
