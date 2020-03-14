@@ -12,8 +12,6 @@
 
 [GitHub Learning Lab](https://lab.github.com/)(教你怎么用 GitHub)
 
-[Markdown 语法说明(简体中文版)](https://www.appinn.com/markdown/#list)
-
 [Molecule](http://www.chm.bris.ac.uk/motm/motm.htm)(每月介绍一种化学分子)
 
 [数据结构和算法动态可视化(中文版)](https://visualgo.net/zh)
