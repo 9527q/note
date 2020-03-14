@@ -68,14 +68,9 @@
 
 [1Mb 静态网站托管](https://1mb.site)
 
-代码分享：
-
-
 [生成 nginx 配置](https://nginxconfig.io/) ｜ [生成 gitignore](https://gitignore.io/)
 
-[IntelliJ IDEA 注册码](http://idea.lanyus.com)
 
-[oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
 
 [Graph models(画Django模型类关系的库)](https://django-extensions.readthedocs.io/en/latest/graph_models.html)
 
