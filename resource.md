@@ -14,8 +14,6 @@
 
 [Molecule](http://www.chm.bris.ac.uk/motm/motm.htm)(每月介绍一种化学分子)
 
-
-
 [《problem solving with algorithms and data structure using python》的中文版](https://github.com/facert/python-data-structure-cn)
 
 [哈佛大学公开课：公正-该如何做是好？](http://open.163.com/special/justice/)
@@ -71,7 +69,7 @@
 [1Mb 静态网站托管](https://1mb.site)
 
 代码分享：
-[codeshare 可管理](https://codeshare.io) ｜ [ubuntu pastebin 不可管理](https://paste.ubuntu.com)
+
 
 [生成 nginx 配置](https://nginxconfig.io/) ｜ [生成 gitignore](https://gitignore.io/)
 
@@ -80,10 +78,6 @@
 [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
 
 [Graph models(画Django模型类关系的库)](https://django-extensions.readthedocs.io/en/latest/graph_models.html)
-
-## 前端特效
-
-[CSS 实现悬浮效果](https://mp.weixin.qq.com/s?__biz=MjM5NTY1MjY0MQ==&mid=2650742344&idx=3&sn=fdafa8bec7ab21dfbacb29ea2d605da5&chksm=befe8b0689890210df8483d008a5a354f988247d68f5c023df5865d985437119a88092ab7535&mpshare=1&scene=1&srcid=08174UHCvIUBYXARiory21k9#rd) | [sojson 背景特效](https://www.sojson.com/blog/127.html)
 
 ## 文章
 
