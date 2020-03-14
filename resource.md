@@ -14,7 +14,7 @@
 
 [Molecule](http://www.chm.bris.ac.uk/motm/motm.htm)(每月介绍一种化学分子)
 
-[数据结构和算法动态可视化(中文版)](https://visualgo.net/zh)
+
 
 [《problem solving with algorithms and data structure using python》的中文版](https://github.com/facert/python-data-structure-cn)
 
@@ -94,16 +94,3 @@
 - [最有效的五步推销法](http://www.ruanyifeng.com/blog/2018/11/most-effective-sales-promotion.html)
 - [毕业10年才懂，会升层思考，工作有多轻松？](https://developer.aliyun.com/article/738121?spm=a1z389.11499242.0.0.65452413JIV3mg&utm_content=g_1000092000)
 - [程序员的誓言](https://blog.cleancoder.com/uncle-bob/2015/11/18/TheProgrammersOath.html)
-
-## 游戏
-
-[新合金弹头](http://www.4399.com/flash/1809.htm#search3)
-
-[Euclidea 平面几何作图(有app)](https://www.euclidea.xyz/en/game/packs/) | [Voxel三维积木建模](https://www.makerbean.com/voxelbuilder#C/2646532a9d8fe9c46af4a261e76f51:A/)
-
-[CodeTank](http://codetank.alloyteam.com/) | [极客战记](https://codecombat.163.com) | [CodeWar](https://www.codewar.cn/home)
-
-[飞行模拟器](https://www.geo-fs.com/int/cn/index.php)
-
-[文字修仙](https://louisalflame.github.io/CFantasyClick/index.html)
-<!-- console外挂 `for(var i = 0; i< 50000; i++)**$(".btn.btn-lg.btn-default")**.click()**` -->
