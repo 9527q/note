@@ -19,3 +19,5 @@ MySQL 软件采用了双授权政策，分为社区版和商业版，在过去�
 > Michael Widenius（often called Monty）是 MySQL 的主要原作者，他的儿子叫 Max（MaxDB 也是一种数据库管理系统（DBMS）），大女儿和小女儿分别叫 My 和 Maria。
 
 MySQl 和 mysql 的写法都是对的，前者用在名字，而后者用在命令中。
+
+- [索引](./index.md)
