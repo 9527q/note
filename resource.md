@@ -4,8 +4,6 @@
 
 [V2EX](https://www.v2ex.com) ｜ [LearnKu](https://learnku.com)
 
-[阮一峰](http://www.ruanyifeng.com/home.html) ｜ [廖雪峰](https://www.liaoxuefeng.com/) ｜ [郝](http://118.190.215.104:84/)
-
 [实验吧](http://www.shiyanbar.com/ctf/) ｜ [kaggle](https://www.kaggle.com) ｜ [洛谷](https://www.luogu.com.cn/) ｜ [edabit](https://edabit.com/challenges)(编程练习题) ｜ [牛客网](https://www.nowcoder.com/)
 
 [TensorFlow 中文社区](http://www.tensorfly.cn/) ｜ [NN Playground](http://playground.tensorflow.org)
@@ -42,7 +40,7 @@
 
 [改图|水印|二维码](https://www.gaitubao.com) ｜ [removebg 去除图片背景(可url)](https://www.remove.bg) ｜ [SM.MS 图床(有删除接口)](https://sm.ms/)
 
-[code2flow](https://code2flow.com/)(代码->流程图) ｜ [ProcessOn](https://www.processon.com/)(流程图、思维导图)
+[code2flow](https://code2flow.com/)(代码->流程图)
 
 [LaTeX 公式编辑器](http://www.codecogs.com/latex/eqneditor.php)
 
@@ -52,7 +50,6 @@
 
 [METO API 音乐测试](https://api.i-meto.com/music.page)
 
-[Urban Dictionary 英语方言词典](https://www.urbandictionary.com/)
 
 [查询数字在圆周率中的位置/查询圆周率第几位](https://www.1415926pi.com)
 
@@ -68,7 +65,7 @@
 
 [1Mb 静态网站托管](https://1mb.site)
 
-[生成 nginx 配置](https://nginxconfig.io/) ｜ [生成 gitignore](https://gitignore.io/)
+[生成 gitignore](https://gitignore.io/)
 
 
 
@@ -81,5 +78,4 @@
 - [You Don't Need to Quit Your Job to Make](https://blog.stephsmith.io/you-dont-need-to-quit-your-job-to-make/)
 - [知乎上的44条神回复，针针见血，看完整个人通透多了](https://mp.weixin.qq.com/s?__biz=MzA4MzQzMTg3Mw==&mid=2686285856&idx=7&sn=fe5bbe7e87d8613260aeaa30f9a25c89&chksm=ba1f408e8d68c998a081c75cd74a40d46cf45eaef843ae9ba90bdacc3dd578fc7cb7fbcd2811&scene=0#rd)
 - [最有效的五步推销法](http://www.ruanyifeng.com/blog/2018/11/most-effective-sales-promotion.html)
-- [毕业10年才懂，会升层思考，工作有多轻松？](https://developer.aliyun.com/article/738121?spm=a1z389.11499242.0.0.65452413JIV3mg&utm_content=g_1000092000)
 - [程序员的誓言](https://blog.cleancoder.com/uncle-bob/2015/11/18/TheProgrammersOath.html)
