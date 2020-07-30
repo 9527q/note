@@ -1,3 +1,6 @@
-# 个人学习笔记
+# 笔记
 
-- [github](https://github.com/9527q/note)
+- [markdown](./markdwon.md)
+- [redash](./redash.md)
+- [Chrome](./chrome.md)
+- [VSCode](./vscode.md)
