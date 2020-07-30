@@ -13,7 +13,7 @@
 
 ## gitbook
 
-gitbook 是一个将 MD 项目变成 web 服务/文件的工具，GitBook 是这个工具的开发商，也在运营一个存储 MD 项目的同名网站
+gitbook 是一个将 MD 项目变成 web 服务/文件的工具，GitBook 是一个存储 MD 项目的网站，也是前述工具的开发团队
 
 [gitbook 文档](https://gitbookio.gitbooks.io/documentation/index.html)
 [gitbook 插件](http://gitbook.zhangjikai.com/plugins.html)
