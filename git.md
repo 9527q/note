@@ -186,3 +186,12 @@
         -   id: check-hooks-apply
         -   id: check-useless-excludes
     ```
+
+
+- [Git 推送到多个仓库](http://www.gnailuy.com/linux/2019/02/25/git-push-to-multiple-repositories/)
+- [GitHub 使用技巧](https://github.blog/2020-04-09-github-protips-tips-tricks-hacks-and-secrets-from-lee-reilly/)
+- [GitHub 帮助文档](https://help.github.com/cn) --- 中文未翻译完
+- [从 0 开始学习 GitHub](https://pan.baidu.com/s/1hsn57YO) --- 中文
+- [Github 使用技巧：存储文件、项目实例](http://solutionoptimist.com/awesome-github-tricks/)
+- [GitHub 部署网站](https://blog.csdn.net/u010105970/article/details/53889297)
+- [缩减GitHub仓库大小,彻底清除垃圾文件](https://www.jianshu.com/p/6217949e87a3)
