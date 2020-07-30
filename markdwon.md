@@ -10,3 +10,10 @@
 - Markdown All in One：快捷键、自动补全、导出
 - Markdown Preview Enhanced：增强展示，右上角展示按钮
 - Markdown Table Prettifier：<kbd>⌘ K F</kbd> 整理表格
+
+## gitbook
+
+gitbook 是一个将 MD 项目变成 web 服务/文件的工具，GitBook 是这个工具的开发商，也在运营一个存储 MD 项目的同名网站
+
+[gitbook 文档](https://gitbookio.gitbooks.io/documentation/index.html)
+[gitbook 插件](http://gitbook.zhangjikai.com/plugins.html)
