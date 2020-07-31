@@ -1,6 +1,6 @@
 # Markdown
 
-轻量级标记语言，John Gruber 发明，文档后缀为 .md，需要借助支持它的编辑器或工具才能展示或导出
+轻量级标记语言，John Gruber 发明，文档后缀为 `.md`，需要借助支持它的编辑器或工具才能展示或导出
 
 [Markdown 语法说明(简体中文版)](https://www.appinn.com/markdown/#list)
 [用 mermaid 画流程图](https://www.jianshu.com/p/b421cc723da5)
